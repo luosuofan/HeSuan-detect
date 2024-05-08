@@ -1,0 +1,8 @@
+train: ../myDataSet/yolo_caiDataSet/images/train/ 
+val: ../myDataSet/yolo_caiDataSet/images/val/ 
+
+# number of classes
+nc: 5
+
+# class names
+names: [ 'throat', 'sampling', 'swab', 'Intube', 'stick']
